@@ -34,7 +34,7 @@ func reset_snake() -> void:
 
 
 func _process(_delta: float) -> void:
-	if not alive:
+	if not alive or not GameManager.can_move():
 		return
 
 	if Input.is_action_just_pressed("move_up"):
