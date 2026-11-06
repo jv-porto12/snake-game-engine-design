@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://ckufwj2qa72s2"]
+
+[ext_resource type="Script" uid="uid://dwps6kaqayoxm" path="res://scripts/snake.gd" id="1_glv2v"]
+
+[node name="Main" type="Node2D" unique_id=539918040]
+
+[node name="Snake" type="Node2D" parent="." unique_id=823705305]
+position = Vector2(0, -2)
+script = ExtResource("1_glv2v")
+
+[node name="Fruit Container" type="Node2D" parent="." unique_id=624274669]
+
+[node name="MoveTimer" type="Timer" parent="." unique_id=50263664]
+wait_time = 0.15
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=453257262]
+
+[node name="HUD" type="Control" parent="CanvasLayer" unique_id=560094549]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScoreLabel" type="Label" parent="CanvasLayer/HUD" unique_id=1620782812]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="GameOverLabel" type="Label" parent="CanvasLayer/HUD" unique_id=277137300]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="InstructionsLabel" type="Label" parent="CanvasLayer/HUD" unique_id=607072832]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
