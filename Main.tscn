@@ -10,7 +10,7 @@ script = ExtResource("1_uu6xs")
 position = Vector2(0, -2)
 script = ExtResource("1_glv2v")
 
-[node name="Fruit Container" type="Node2D" parent="." unique_id=624274669]
+[node name="FruitContainer" type="Node2D" parent="." unique_id=624274669]
 
 [node name="MoveTimer" type="Timer" parent="." unique_id=50263664]
 wait_time = 0.15
