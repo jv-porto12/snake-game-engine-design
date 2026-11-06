@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://ckufwj2qa72s2"]
 
 [ext_resource type="Script" uid="uid://dwps6kaqayoxm" path="res://scripts/snake.gd" id="1_glv2v"]
+[ext_resource type="Script" uid="uid://dmsfrj8jtv2x4" path="res://scripts/main.gd" id="1_uu6xs"]
 
 [node name="Main" type="Node2D" unique_id=539918040]
+script = ExtResource("1_uu6xs")
 
 [node name="Snake" type="Node2D" parent="." unique_id=823705305]
 position = Vector2(0, -2)

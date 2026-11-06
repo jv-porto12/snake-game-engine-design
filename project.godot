@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="snake game engine design"
+run/main_scene="uid://ckufwj2qa72s2"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
